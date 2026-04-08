@@ -38,7 +38,7 @@ Medical-Assistant/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/Medical-Assistant.git
+   git clone https://github.com/ai-nerdy/Medical-Assistant.git
    cd Medical-Assistant
    ```
 
