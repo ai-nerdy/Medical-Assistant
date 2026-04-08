@@ -155,7 +155,9 @@ if not openai_api_key:
     st.stop()
 
 # Build vector store (cached)
-vectorstore = build_vectorstore(PDF_PATH, openai_api_key, openai_api_base)
+git remote add origin https://github.com/<your-username>/Medical-Assistant.git
+git push -u origin mastergit remote add origin https://github.com/<your-username>/Medical-Assistant.git
+git push -u origin mastervectorstore = build_vectorstore(PDF_PATH, openai_api_key, openai_api_base)
 retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 5})
 client = OpenAI()
 
